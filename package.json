@@ -1,0 +1,49 @@
+{
+  "name": "vite-react-nestjs-electron",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@8.15.6",
+  "description": "Vite + React + Electron with Doubleshot, so fast! ⚡",
+  "main": "dist/main/index.js",
+  "scripts": {
+    "dev": "rimraf dist && vite",
+    "debug": "rimraf dist && vite -- --dsb-debug",
+    "build": "rimraf dist && vite build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "@doubleshot/nest-electron": "^0.2.5",
+    "@nestjs/common": "^10.3.7",
+    "@nestjs/core": "^10.3.7",
+    "@nestjs/microservices": "^10.3.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@lightwing/eslint-config": "^1.0.39",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "electron": "^29.2.0",
+    "electron-builder": "^24.13.3",
+    "eslint": "^9.0.0",
+    "lint-staged": "^15.2.2",
+    "rimraf": "^5.0.5",
+    "simple-git-hooks": "^2.11.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-doubleshot": "^0.0.13"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,vue,md,json,yml}": [
+      "eslint --fix"
+    ]
+  }
+}
