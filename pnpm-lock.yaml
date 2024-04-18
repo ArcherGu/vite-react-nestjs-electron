@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@doubleshot/nest-electron':
         specifier: ^0.2.5
-        version: 0.2.5(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.7(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@10.3.7)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@10.3.7(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.7)(reflect-metadata@0.2.2)(rxjs@7.8.1))(electron@30.0.0)(rxjs@7.8.1)
+        version: 0.2.5(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.7(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@10.3.7)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@10.3.7(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.7)(reflect-metadata@0.2.2)(rxjs@7.8.1))(electron@30.0.1)(rxjs@7.8.1)
       '@nestjs/common':
         specifier: ^10.3.7
         version: 10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1)
@@ -47,7 +47,7 @@ importers:
         version: 4.2.1(vite@5.2.9(@types/node@20.12.7))
       electron:
         specifier: ^30.0.0
-        version: 30.0.0
+        version: 30.0.1
       electron-builder:
         specifier: ^24.13.3
         version: 24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3))
@@ -71,7 +71,7 @@ importers:
         version: 5.2.9(@types/node@20.12.7)
       vite-plugin-doubleshot:
         specifier: ^0.0.13
-        version: 0.0.13(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.0)(postcss@8.4.38)(typescript@5.4.5)(vite@5.2.9(@types/node@20.12.7))
+        version: 0.0.13(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.1)(postcss@8.4.38)(typescript@5.4.5)(vite@5.2.9(@types/node@20.12.7))
 
 packages:
 
@@ -1626,8 +1626,8 @@ packages:
   electron-to-chromium@1.4.731:
     resolution: {integrity: sha512-+TqVfZjpRz2V/5SPpmJxq9qK620SC5SqCnxQIOi7i/U08ZDcTpKbT7Xjj9FU5CbXTMUb4fywbIr8C7cGv4hcjw==}
 
-  electron@30.0.0:
-    resolution: {integrity: sha512-GRwKphq/TUhSlb44OwSckXKl50f5OR/pm9MvF3rBLyqcxwfu7L11xejrZ0hDea1eKyCkzGd4B+cIqaQiDguPEA==}
+  electron@30.0.1:
+    resolution: {integrity: sha512-iwxkI/n2wBd29NH7TH0ZY8aWGzCoKpzJz+D10u7aGSJi1TV6d4MSM3rWyKvT/UkAHkTKOEgYfUyCa2vWQm8L0g==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
 
@@ -3624,7 +3624,7 @@ snapshots:
       ajv: 6.12.6
       ajv-keywords: 3.5.2(ajv@6.12.6)
 
-  '@doubleshot/builder@0.0.11(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.0)(postcss@8.4.38)(typescript@5.4.5)':
+  '@doubleshot/builder@0.0.11(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.1)(postcss@8.4.38)(typescript@5.4.5)':
     dependencies:
       '@swc/core': 1.4.12
       bundle-require: 4.0.2(esbuild@0.18.20)
@@ -3637,7 +3637,7 @@ snapshots:
       tsup: 7.2.0(@swc/core@1.4.12)(postcss@8.4.38)(typescript@5.4.5)
       wait-on: 7.2.0
     optionalDependencies:
-      electron: 30.0.0
+      electron: 30.0.1
       electron-builder: 24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3))
     transitivePeerDependencies:
       - '@swc/helpers'
@@ -3647,12 +3647,12 @@ snapshots:
       - ts-node
       - typescript
 
-  '@doubleshot/nest-electron@0.2.5(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.7(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@10.3.7)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@10.3.7(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.7)(reflect-metadata@0.2.2)(rxjs@7.8.1))(electron@30.0.0)(rxjs@7.8.1)':
+  '@doubleshot/nest-electron@0.2.5(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.7(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@10.3.7)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@10.3.7(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.7)(reflect-metadata@0.2.2)(rxjs@7.8.1))(electron@30.0.1)(rxjs@7.8.1)':
     dependencies:
       '@nestjs/common': 10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1)
       '@nestjs/core': 10.3.7(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@10.3.7)(reflect-metadata@0.2.2)(rxjs@7.8.1)
       '@nestjs/microservices': 10.3.7(@nestjs/common@10.3.7(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.7)(reflect-metadata@0.2.2)(rxjs@7.8.1)
-      electron: 30.0.0
+      electron: 30.0.1
       rxjs: 7.8.1
 
   '@electron/asar@3.2.9':
@@ -5036,7 +5036,7 @@ snapshots:
 
   electron-to-chromium@1.4.731: {}
 
-  electron@30.0.0:
+  electron@30.0.1:
     dependencies:
       '@electron/get': 2.0.3
       '@types/node': 20.12.7
@@ -6794,9 +6794,9 @@ snapshots:
       extsprintf: 1.4.1
     optional: true
 
-  vite-plugin-doubleshot@0.0.13(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.0)(postcss@8.4.38)(typescript@5.4.5)(vite@5.2.9(@types/node@20.12.7)):
+  vite-plugin-doubleshot@0.0.13(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.1)(postcss@8.4.38)(typescript@5.4.5)(vite@5.2.9(@types/node@20.12.7)):
     dependencies:
-      '@doubleshot/builder': 0.0.11(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.0)(postcss@8.4.38)(typescript@5.4.5)
+      '@doubleshot/builder': 0.0.11(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.1)(postcss@8.4.38)(typescript@5.4.5)
       vite: 5.2.9(@types/node@20.12.7)
     transitivePeerDependencies:
       - '@swc/helpers'
