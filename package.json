@@ -15,28 +15,28 @@
   },
   "dependencies": {
     "@doubleshot/nest-electron": "^0.2.5",
-    "@nestjs/common": "^10.3.7",
-    "@nestjs/core": "^10.3.7",
-    "@nestjs/microservices": "^10.3.7",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@nestjs/common": "^10.3.8",
+    "@nestjs/core": "^10.3.8",
+    "@nestjs/microservices": "^10.3.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1"
   },
   "devDependencies": {
-    "@lightwing/eslint-config": "^1.0.39",
-    "@types/react": "^18.2.66",
-    "@types/react-dom": "^18.2.22",
+    "@lightwing/eslint-config": "^1.0.52",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.2.1",
-    "electron": "^30.0.0",
+    "electron": "^30.0.4",
     "electron-builder": "^24.13.3",
-    "eslint": "^9.0.0",
+    "eslint": "^9.2.0",
     "lint-staged": "^15.2.2",
-    "rimraf": "^5.0.5",
+    "rimraf": "^5.0.7",
     "simple-git-hooks": "^2.11.1",
-    "typescript": "^5.2.2",
-    "vite": "^5.2.0",
-    "vite-plugin-doubleshot": "^0.0.13"
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-doubleshot": "^0.0.14"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"

@@ -36,10 +36,10 @@ function App() {
         Vite + React + Electron & Esbuild
       </h1>
 
-      <textarea value={log} cols={60} rows={10} disabled={true} />
+      <textarea value={log} cols={60} rows={10} disabled />
       <div style={{ marginTop: 20 }}>
         <input value={msg} type="text" placeholder="send msg to main process" onChange={handleInput} />
-        <button style={{ marginLeft: 20 }} onClick={sendMsg}>
+        <button type="button" style={{ marginLeft: 20 }} onClick={sendMsg}>
           Send
         </button>
       </div>

@@ -1,4 +1,3 @@
-// @ts-check
 const lightwing = require('@lightwing/eslint-config').default
 
 module.exports = lightwing(
@@ -13,5 +12,6 @@ module.exports = lightwing(
       'js_test',
       'local-data',
     ],
+    react: true,
   },
 )
