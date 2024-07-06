@@ -70,8 +70,8 @@ importers:
         specifier: ^5.2.11
         version: 5.3.3(@types/node@20.14.9)
       vite-plugin-doubleshot:
-        specifier: ^0.0.14
-        version: 0.0.14(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@31.1.0)(postcss@8.4.39)(typescript@5.5.3)(vite@5.3.3(@types/node@20.14.9))
+        specifier: ^0.0.16
+        version: 0.0.16(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@31.1.0)(postcss@8.4.39)(typescript@5.5.3)(vite@5.3.3(@types/node@20.14.9))
 
 packages:
 
@@ -2321,9 +2321,6 @@ packages:
     resolution: {integrity: sha512-ZYvCgrefwqoQ6yTyYUbQu64HsITZ3NfKX1lzaEYdkTDcfKzzCI/wthRRYKkdjHKFVgNiXKAKm65Zo1pk2as/QQ==}
     hasBin: true
 
-  is-core-module@2.13.1:
-    resolution: {integrity: sha512-hHrIjvZsftOsvKSn2TRYl63zvxsgE0K+0mYMoH6gD4omR5IWB2KynivBQczo3+wF1cCkjzvptnI9Q0sPU66ilw==}
-
   is-core-module@2.14.0:
     resolution: {integrity: sha512-a5dFJih5ZLYlRtDc0dZWP7RiKr6xIKzmn/oAYCDvdLThadVgyJwlaoQPmRtMSpz+rk0OGAgIu+TcM9HUF0fk1A==}
     engines: {node: '>= 0.4'}
@@ -3438,8 +3435,8 @@ packages:
     resolution: {integrity: sha512-veufcmxri4e3XSrT0xwfUR7kguIkaxBeosDg00yDWhk49wdwkSUrvvsm7nc75e1PUyvIeZj6nS8VQRYz2/S4Xg==}
     engines: {node: '>=0.6.0'}
 
-  vite-plugin-doubleshot@0.0.14:
-    resolution: {integrity: sha512-7ldaBMuAaRqUOKFTFMle0GZJN333BFFYCJVxgnwvsJnpWUoQdN5TF+G7BtVFiX4x87vNFnkDN1qUbYCmHTs6xw==}
+  vite-plugin-doubleshot@0.0.16:
+    resolution: {integrity: sha512-6bxmyO1/aVQNrZ9bgOrk4Bvih1ajCsRN7P9fmDQfOpa9BG27wHQsEm5UDS1uccks+Td/oY+0iryFnhMEDbKRLA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       vite: '>=2.0.0'
@@ -6166,10 +6163,6 @@ snapshots:
     dependencies:
       ci-info: 3.9.0
 
-  is-core-module@2.13.1:
-    dependencies:
-      hasown: 2.0.2
-
   is-core-module@2.14.0:
     dependencies:
       hasown: 2.0.2
@@ -6789,7 +6782,7 @@ snapshots:
 
   resolve@1.22.8:
     dependencies:
-      is-core-module: 2.13.1
+      is-core-module: 2.14.0
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
@@ -7227,7 +7220,7 @@ snapshots:
       extsprintf: 1.4.1
     optional: true
 
-  vite-plugin-doubleshot@0.0.14(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@31.1.0)(postcss@8.4.39)(typescript@5.5.3)(vite@5.3.3(@types/node@20.14.9)):
+  vite-plugin-doubleshot@0.0.16(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@31.1.0)(postcss@8.4.39)(typescript@5.5.3)(vite@5.3.3(@types/node@20.14.9)):
     dependencies:
       '@doubleshot/builder': 0.0.11(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@31.1.0)(postcss@8.4.39)(typescript@5.5.3)
       vite: 5.3.3(@types/node@20.14.9)
