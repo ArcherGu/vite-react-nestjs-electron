@@ -35,7 +35,7 @@
     "rimraf": "^6.0.0",
     "simple-git-hooks": "^2.11.1",
     "typescript": "^5.4.5",
-    "vite": "^5.2.11",
+    "vite": "^6.0.0",
     "vite-plugin-doubleshot": "^0.0.17"
   },
   "simple-git-hooks": {
