@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@doubleshot/nest-electron':
         specifier: ^0.2.5
-        version: 0.2.5(@nestjs/common@11.0.5(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@11.0.5)(@nestjs/microservices@11.0.5)(electron@34.0.1)(rxjs@7.8.1)
+        version: 0.2.6(@nestjs/common@11.0.5(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@11.0.5)(@nestjs/microservices@11.0.5)(electron@34.0.1)(rxjs@7.8.1)
       '@nestjs/common':
         specifier: ^11.0.0
         version: 11.0.5(reflect-metadata@0.2.2)(rxjs@7.8.1)
@@ -192,8 +192,8 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
-  '@babel/parser@7.26.5':
-    resolution: {integrity: sha512-SRJ4jYmXRqV1/Xc+TIVG84WjHBXKlxO9sHQnA2Pf12QQEAp1LOh6kDzNHXcUnbH1QI0FDoPPVOt+vyUDucxpaw==}
+  '@babel/parser@7.26.7':
+    resolution: {integrity: sha512-kEvgGGgEjRUutvdVvZhbn/BxVt+5VSpwXz1j3WYXQbXDo8KzFOPNG2GQbdAiNq8g6wn1yKk7C/qrke03a84V+w==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -221,8 +221,8 @@ packages:
     resolution: {integrity: sha512-vN5p+1kl59GVKMvTHt55NzzmYVxprfJD+ql7U9NFIfKCBkYE55LYtS+WtPlaYOyzydrKI8Nezd+aZextrd+FMA==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/types@7.26.5':
-    resolution: {integrity: sha512-L6mZmwFDK6Cjh1nRCLXpa6no13ZIioJDz7mdkzHv399pThrTa/k0nUlNaenOeh2kWu/iaOQYElEpKPUswUa9Vg==}
+  '@babel/types@7.26.7':
+    resolution: {integrity: sha512-t8kDRGrKXyp6+tjUh7hw2RLyclsW4TRoRvRHtSyAX9Bb5ldlFh+90YAYY6awRXrlB4G5G2izNeGySpATlFzmOg==}
     engines: {node: '>=6.9.0'}
 
   '@clack/core@0.4.1':
@@ -248,8 +248,8 @@ packages:
       electron-builder:
         optional: true
 
-  '@doubleshot/nest-electron@0.2.5':
-    resolution: {integrity: sha512-3klwsIvw1Di/Kvu/VmFpiTSc2Wy9lJWhoyz0AxpJLzGbNF1FrtEy+V3W4i6GfLwvJQusQzh4Vi7a1nrHg1yp4w==}
+  '@doubleshot/nest-electron@0.2.6':
+    resolution: {integrity: sha512-wTBtbrZwoMSFSc0kwvU/qmLY8T3Qk0hluiCdWgW088gZSG8KHGoCKhs3Az+825rl9CQitdhWXRVphl0vKFg+xw==}
     peerDependencies:
       '@nestjs/common': '>=8.0.0'
       '@nestjs/core': '>=8.0.0'
@@ -4212,9 +4212,9 @@ snapshots:
     dependencies:
       '@babel/types': 7.26.3
 
-  '@babel/parser@7.26.5':
+  '@babel/parser@7.26.7':
     dependencies:
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
 
   '@babel/plugin-transform-react-jsx-self@7.25.9(@babel/core@7.26.0)':
     dependencies:
@@ -4249,7 +4249,7 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@babel/types@7.26.5':
+  '@babel/types@7.26.7':
     dependencies:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
@@ -4296,7 +4296,7 @@ snapshots:
       - typescript
       - yaml
 
-  '@doubleshot/nest-electron@0.2.5(@nestjs/common@11.0.5(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@11.0.5)(@nestjs/microservices@11.0.5)(electron@34.0.1)(rxjs@7.8.1)':
+  '@doubleshot/nest-electron@0.2.6(@nestjs/common@11.0.5(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@11.0.5)(@nestjs/microservices@11.0.5)(electron@34.0.1)(rxjs@7.8.1)':
     dependencies:
       '@nestjs/common': 11.0.5(reflect-metadata@0.2.2)(rxjs@7.8.1)
       '@nestjs/core': 11.0.5(@nestjs/common@11.0.5(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@11.0.5)(reflect-metadata@0.2.2)(rxjs@7.8.1)
@@ -5276,7 +5276,7 @@ snapshots:
 
   '@vue/compiler-core@3.4.22':
     dependencies:
-      '@babel/parser': 7.26.5
+      '@babel/parser': 7.26.7
       '@vue/shared': 3.4.22
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -5289,7 +5289,7 @@ snapshots:
 
   '@vue/compiler-sfc@3.4.22':
     dependencies:
-      '@babel/parser': 7.26.5
+      '@babel/parser': 7.26.7
       '@vue/compiler-core': 3.4.22
       '@vue/compiler-dom': 3.4.22
       '@vue/compiler-ssr': 3.4.22
