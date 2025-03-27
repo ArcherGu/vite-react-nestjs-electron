@@ -29,7 +29,7 @@
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.3.4",
     "electron": "^35.0.0",
-    "electron-builder": "^25.1.8",
+    "electron-builder": "^26.0.0",
     "eslint": "^9.20.1",
     "lint-staged": "^15.4.3",
     "rimraf": "^6.0.1",
