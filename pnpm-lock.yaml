@@ -38,10 +38,10 @@ importers:
         version: 1.0.117(@vue/compiler-sfc@3.4.22)(eslint@9.27.0(jiti@2.4.2))(ts-api-utils@2.1.0(typescript@5.8.3))(typescript@5.8.3)
       '@types/react':
         specifier: ^19.0.8
-        version: 19.1.5
+        version: 19.1.6
       '@types/react-dom':
         specifier: ^19.0.3
-        version: 19.1.5(@types/react@19.1.5)
+        version: 19.1.5(@types/react@19.1.6)
       '@vitejs/plugin-react':
         specifier: ^4.3.4
         version: 4.5.0(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0))
@@ -189,6 +189,11 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
+  '@babel/parser@7.27.3':
+    resolution: {integrity: sha512-xyYxRj6+tLNDTWi0KCBcZ9V7yg3/lwL9DWh9Uwh/RIVlIfFidggcgxKX3GCXwCiswwcGRawBKbEg2LG/Y8eJhw==}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+
   '@babel/plugin-transform-react-jsx-self@7.27.1':
     resolution: {integrity: sha512-6UzkCs+ejGdZ5mFFC/OCUrv028ab2fp1znZmCZjAOBKiBK2jXD1O+BPSfX8X2qjJ75fZBMSnQn3Rq2mrBJK2mw==}
     engines: {node: '>=6.9.0'}
@@ -211,6 +216,10 @@ packages:
 
   '@babel/types@7.27.1':
     resolution: {integrity: sha512-+EzkxvLNfiUeKMgy/3luqfsCWFRXLb7U6wNQTk60tovuckwB15B191tJWvpp4HjiQWdJkCxO3Wbvc6jlk3Xb2Q==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/types@7.27.3':
+    resolution: {integrity: sha512-Y1GkI4ktrtvmawoSq+4FCVHNryea6uR+qUQy0AGxLSsjCX0nVmkYQMBLHDkXZuo5hGx7eYdnIaslsdBFm7zbUw==}
     engines: {node: '>=6.9.0'}
 
   '@clack/core@0.4.2':
@@ -1206,8 +1215,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react@19.1.5':
-    resolution: {integrity: sha512-piErsCVVbpMMT2r7wbawdZsq4xMvIAhQuac2gedQHysu1TZYEigE6pnFfgZT+/jQnrRuF5r+SHzuehFjfRjr4g==}
+  '@types/react@19.1.6':
+    resolution: {integrity: sha512-JeG0rEWak0N6Itr6QUx+X60uQmN+5t3j9r/OVDtWzFXKaj6kD1BwJzOksD0FF6iWxZlbE1kB0q9vtnU2ekqa1Q==}
 
   '@types/responselike@1.0.3':
     resolution: {integrity: sha512-H/+L+UkTV33uf49PH5pCAUBVPNj2nDBXTN+qS1dOwyyg24l3CcicicCA7ca+HMvJBZcFgl5r8e+RR6elsb4Lyw==}
@@ -4237,6 +4246,10 @@ snapshots:
     dependencies:
       '@babel/types': 7.27.1
 
+  '@babel/parser@7.27.3':
+    dependencies:
+      '@babel/types': 7.27.3
+
   '@babel/plugin-transform-react-jsx-self@7.27.1(@babel/core@7.27.1)':
     dependencies:
       '@babel/core': 7.27.1
@@ -4266,6 +4279,11 @@ snapshots:
       - supports-color
 
   '@babel/types@7.27.1':
+    dependencies:
+      '@babel/helper-string-parser': 7.27.1
+      '@babel/helper-validator-identifier': 7.27.1
+
+  '@babel/types@7.27.3':
     dependencies:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
@@ -5224,11 +5242,11 @@ snapshots:
       xmlbuilder: 15.1.1
     optional: true
 
-  '@types/react-dom@19.1.5(@types/react@19.1.5)':
+  '@types/react-dom@19.1.5(@types/react@19.1.6)':
     dependencies:
-      '@types/react': 19.1.5
+      '@types/react': 19.1.6
 
-  '@types/react@19.1.5':
+  '@types/react@19.1.6':
     dependencies:
       csstype: 3.1.3
 
@@ -5424,7 +5442,7 @@ snapshots:
 
   '@vue/compiler-core@3.4.22':
     dependencies:
-      '@babel/parser': 7.27.2
+      '@babel/parser': 7.27.3
       '@vue/shared': 3.4.22
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -5437,7 +5455,7 @@ snapshots:
 
   '@vue/compiler-sfc@3.4.22':
     dependencies:
-      '@babel/parser': 7.27.2
+      '@babel/parser': 7.27.3
       '@vue/compiler-core': 3.4.22
       '@vue/compiler-dom': 3.4.22
       '@vue/compiler-ssr': 3.4.22
