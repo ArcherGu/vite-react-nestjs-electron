@@ -14,34 +14,37 @@
     "postinstall": "electron-builder install-app-deps"
   },
   "dependencies": {
-    "@doubleshot/nest-electron": "^0.2.6",
-    "@nestjs/common": "^11.0.9",
-    "@nestjs/core": "^11.0.9",
-    "@nestjs/microservices": "^11.0.9",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "@doubleshot/nest-electron": "^0.2.8",
+    "@nestjs/common": "^11.1.5",
+    "@nestjs/core": "^11.1.5",
+    "@nestjs/microservices": "^11.1.5",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "reflect-metadata": "^0.2.2",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.2"
   },
   "devDependencies": {
-    "@lightwing/eslint-config": "^1.0.104",
-    "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3",
-    "@vitejs/plugin-react": "^4.3.4",
-    "electron": "^37.0.0",
-    "electron-builder": "^26.0.0",
-    "eslint": "^9.20.1",
-    "lint-staged": "^16.0.0",
+    "@lightwing/eslint-config": "^1.0.125",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "electron": "^37.2.4",
+    "electron-builder": "^26.0.12",
+    "eslint": "^9.32.0",
+    "lint-staged": "^16.1.2",
     "rimraf": "^6.0.1",
-    "simple-git-hooks": "^2.11.1",
-    "typescript": "^5.7.3",
-    "vite": "^7.0.0",
+    "simple-git-hooks": "^2.13.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.6",
     "vite-plugin-doubleshot": "^0.0.18"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
       "@nestjs/core",
-      "electron"
+      "@swc/core",
+      "electron",
+      "esbuild",
+      "simple-git-hooks"
     ]
   },
   "simple-git-hooks": {
