@@ -62,7 +62,7 @@ importers:
         version: 6.0.1
       simple-git-hooks:
         specifier: ^2.13.0
-        version: 2.13.0
+        version: 2.13.1
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -3672,8 +3672,8 @@ packages:
     resolution: {integrity: sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==}
     engines: {node: '>=14'}
 
-  simple-git-hooks@2.13.0:
-    resolution: {integrity: sha512-N+goiLxlkHJlyaYEglFypzVNMaNplPAk5syu0+OPp/Bk6dwVoXF6FfOw2vO0Dp+JHsBaI+w6cm8TnFl2Hw6tDA==}
+  simple-git-hooks@2.13.1:
+    resolution: {integrity: sha512-WszCLXwT4h2k1ufIXAgsbiTOazqqevFCIncOuUBZJ91DdvWcC5+OFkluWRQPrcuSYd8fjq+o2y1QfWqYMoAToQ==}
     hasBin: true
 
   simple-update-notifier@2.0.0:
@@ -3931,6 +3931,11 @@ packages:
 
   typescript@5.8.3:
     resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+  typescript@5.9.2:
+    resolution: {integrity: sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -5997,7 +6002,7 @@ snapshots:
   config-file-ts@0.2.6:
     dependencies:
       glob: 10.4.5
-      typescript: 5.8.3
+      typescript: 5.9.2
 
   config-file-ts@0.2.8-rc1:
     dependencies:
@@ -8248,7 +8253,7 @@ snapshots:
 
   signal-exit@4.1.0: {}
 
-  simple-git-hooks@2.13.0: {}
+  simple-git-hooks@2.13.1: {}
 
   simple-update-notifier@2.0.0:
     dependencies:
@@ -8530,6 +8535,8 @@ snapshots:
     optional: true
 
   typescript@5.8.3: {}
+
+  typescript@5.9.2: {}
 
   ufo@1.6.1: {}
 
