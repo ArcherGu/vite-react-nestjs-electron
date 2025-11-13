@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@doubleshot/nest-electron':
         specifier: ^0.2.8
-        version: 0.2.9(@nestjs/common@11.1.8(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.8)(@nestjs/microservices@11.1.8)(electron@39.1.2)(rxjs@7.8.2)
+        version: 0.2.10(@nestjs/common@11.1.8(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.8)(@nestjs/microservices@11.1.8)(electron@39.1.2)(rxjs@7.8.2)
       '@nestjs/common':
         specifier: ^11.1.5
         version: 11.1.8(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -245,8 +245,8 @@ packages:
       electron-builder:
         optional: true
 
-  '@doubleshot/nest-electron@0.2.9':
-    resolution: {integrity: sha512-zQzHz4+8c2HSzPydk99GXk13pfX0mxXzznqz8OY/A1fjnoh5r3w/Le1ZuBm29U9eVLAINbx4Dy8OQU0eEeleCw==}
+  '@doubleshot/nest-electron@0.2.10':
+    resolution: {integrity: sha512-4a84qrWfzJZG4LzDojIQMfcxZswOCU26SouA+pj/2bLUYDcElkPf7mqJWElIUsFPLkf/HY1HUupDV7ZA8Pe4uA==}
     peerDependencies:
       '@nestjs/common': '>=8.0.0'
       '@nestjs/core': '>=8.0.0'
@@ -4236,7 +4236,7 @@ snapshots:
       - typescript
       - yaml
 
-  '@doubleshot/nest-electron@0.2.9(@nestjs/common@11.1.8(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.8)(@nestjs/microservices@11.1.8)(electron@39.1.2)(rxjs@7.8.2)':
+  '@doubleshot/nest-electron@0.2.10(@nestjs/common@11.1.8(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.8)(@nestjs/microservices@11.1.8)(electron@39.1.2)(rxjs@7.8.2)':
     dependencies:
       '@nestjs/common': 11.1.8(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/core': 11.1.8(@nestjs/common@11.1.8(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/microservices@11.1.8)(reflect-metadata@0.2.2)(rxjs@7.8.2)
