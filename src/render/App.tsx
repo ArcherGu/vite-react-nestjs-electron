@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import logo from './assets/logo.png'
 import './App.css'
 
@@ -8,6 +8,7 @@ function App() {
   const [log, setLog] = useState('')
   const [msg, setMsg] = useState('')
   const [isSending, setIsSending] = useState(false)
+  const textareaRef = useRef<HTMLTextAreaElement>(null)
 
   function handleInput(e: React.ChangeEvent<HTMLInputElement>) {
     setMsg(e.target.value)
@@ -19,6 +20,13 @@ function App() {
       setLog(log => `${log}[render]: ${msg} \n`)
       const data = await sendMsgToMainProcess(msg)
       setLog(log => `${log}[main]: ${data} \n`)
+      setMsg('')
+      setTimeout(() => {
+        textareaRef.current?.scrollTo({
+          top: textareaRef.current?.scrollHeight,
+          behavior: 'smooth',
+        })
+      }, 100)
     }
     catch (error) {
       console.error(error)
@@ -30,9 +38,12 @@ function App() {
   }
 
   useEffect(() => {
-    onReplyMsg((msg: string) => {
+    const offOnReplyMsg = onReplyMsg((msg: string) => {
       setLog(log => `${log}[main]: ${msg} \n`)
     })
+    return () => {
+      offOnReplyMsg()
+    }
   }, [])
 
   return (
@@ -50,7 +61,13 @@ function App() {
             <div className="card-body">
               <div className="log-section">
                 <label className="label">Message Log</label>
-                <textarea value={log} className="log-output" placeholder="Message logs will appear here..." readOnly />
+                <textarea
+                  ref={textareaRef}
+                  value={log}
+                  className="log-output"
+                  placeholder="Message logs will appear here..."
+                  readOnly
+                />
                 <div className="log-actions">
                   <p className="card-description">Communicate with the main process</p>
                   <button className="btn btn-secondary btn-sm" disabled={!log} onClick={() => setLog('')}>
@@ -76,7 +93,12 @@ function App() {
                     }}
                   />
 
-                  <button className="btn btn-primary" type="button" disabled={isSending} onClick={sendMsg}>
+                  <button
+                    className="btn btn-primary"
+                    type="button"
+                    disabled={isSending || !msg.trim()}
+                    onClick={sendMsg}
+                  >
                     {isSending ? 'Sending...' : 'Send'}
                   </button>
                 </div>

@@ -214,6 +214,7 @@
   resize: vertical;
   transition: all 0.2s ease;
   outline: none;
+  scroll-behavior: smooth;
 }
 
 .log-output:focus {
