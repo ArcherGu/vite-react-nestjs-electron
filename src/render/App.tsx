@@ -70,7 +70,7 @@ function App() {
                 />
                 <div className="log-actions">
                   <p className="card-description">Communicate with the main process</p>
-                  <button className="btn btn-secondary btn-sm" disabled={!log} onClick={() => setLog('')}>
+                  <button type="button" className="btn btn-secondary btn-sm" disabled={!log} onClick={() => setLog('')}>
                     Clear Log
                   </button>
                 </div>
