@@ -11,4 +11,10 @@ export default lightwing(
       'react/no-unnecessary-use-prefix': 'off',
     },
   },
+  {
+    files: ['README.md'],
+    rules: {
+      'markdown/fenced-code-language': 'off',
+    },
+  },
 )
