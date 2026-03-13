@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@doubleshot/nest-electron':
         specifier: ^0.2.11
-        version: 0.2.11(@nestjs/common@11.1.16(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.16)(@nestjs/microservices@11.1.16)(electron@41.0.1)(rxjs@7.8.2)
+        version: 0.2.11(@nestjs/common@11.1.16(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.16)(@nestjs/microservices@11.1.16)(electron@41.0.2)(rxjs@7.8.2)
       '@nestjs/common':
         specifier: ^11.1.14
         version: 11.1.16(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -47,7 +47,7 @@ importers:
         version: 6.0.1(vite@8.0.0(@types/node@25.5.0)(esbuild@0.27.2)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))
       electron:
         specifier: ^41.0.0
-        version: 41.0.1
+        version: 41.0.2
       electron-builder:
         specifier: ^26.8.1
         version: 26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1))
@@ -71,7 +71,7 @@ importers:
         version: 8.0.0(@types/node@25.5.0)(esbuild@0.27.2)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2)
       vite-plugin-doubleshot:
         specifier: ^0.0.20
-        version: 0.0.20(@swc/core@1.11.4)(electron-builder@26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1)))(electron@41.0.1)(esbuild@0.27.2)(jiti@2.6.1)(postcss@8.5.8)(tsx@4.19.2)(typescript@5.9.3)(vite@8.0.0(@types/node@25.5.0)(esbuild@0.27.2)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))(yaml@2.8.2)
+        version: 0.0.20(@swc/core@1.11.4)(electron-builder@26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1)))(electron@41.0.2)(esbuild@0.27.2)(jiti@2.6.1)(postcss@8.5.8)(tsx@4.19.2)(typescript@5.9.3)(vite@8.0.0(@types/node@25.5.0)(esbuild@0.27.2)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))(yaml@2.8.2)
 
 packages:
 
@@ -1439,9 +1439,6 @@ packages:
   '@types/node@24.12.0':
     resolution: {integrity: sha512-GYDxsZi3ChgmckRT9HPU0WEhKLP08ev/Yfcq2AstjrDASOYCSXeyjDsHg4v5t4jOj7cyDX3vmprafKlWIG9MXQ==}
 
-  '@types/node@25.3.5':
-    resolution: {integrity: sha512-oX8xrhvpiyRCQkG1MFchB09f+cXftgIXb3a7UUa4Y3wpmZPw5tyZGTLWhlESOLq1Rq6oDlc8npVU2/9xiCuXMA==}
-
   '@types/node@25.5.0':
     resolution: {integrity: sha512-jp2P3tQMSxWugkCUKLRPVUpGaL5MVFwF8RDuSRztfwgN1wmqJeMSbKlnEtQqU8UrhTmzEmZdu2I6v2dpp7XIxw==}
 
@@ -2049,8 +2046,8 @@ packages:
     resolution: {integrity: sha512-bO3y10YikuUwUuDUQRM4KfwNkKhnpVO7IPdbsrejwN9/AABJzzTQ4GeHwyzNSrVO+tEH3/Np255a3sVZpZDjvg==}
     engines: {node: '>=8.0.0'}
 
-  electron@41.0.1:
-    resolution: {integrity: sha512-VElEzqqlqQJla59NF7TPf9u7yGX1NEpVz94ZNp/dMRUMPJHcc9kuP7C4ODbNzzevjhChw9gB4NT6osNpN5qjJA==}
+  electron@41.0.2:
+    resolution: {integrity: sha512-raotm/aO8kOs1jD8SI8ssJ7EKciQOY295AOOprl1TxW7B0At8m5Ae7qNU1xdMxofiHMR8cNEGi9PKD3U+yT/mA==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
 
@@ -4334,7 +4331,7 @@ snapshots:
       ajv: 6.14.0
       ajv-keywords: 3.5.2(ajv@6.14.0)
 
-  '@doubleshot/builder@0.0.16(@swc/core@1.11.4)(electron-builder@26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1)))(electron@41.0.1)(esbuild@0.27.2)(jiti@2.6.1)(postcss@8.5.8)(tsx@4.19.2)(typescript@5.9.3)(yaml@2.8.2)':
+  '@doubleshot/builder@0.0.16(@swc/core@1.11.4)(electron-builder@26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1)))(electron@41.0.2)(esbuild@0.27.2)(jiti@2.6.1)(postcss@8.5.8)(tsx@4.19.2)(typescript@5.9.3)(yaml@2.8.2)':
     dependencies:
       bundle-require: 5.1.0(esbuild@0.27.2)
       cac: 6.7.14
@@ -4345,7 +4342,7 @@ snapshots:
       tsup: 8.5.1(@swc/core@1.11.4)(jiti@2.6.1)(postcss@8.5.8)(tsx@4.19.2)(typescript@5.9.3)(yaml@2.8.2)
       wait-on: 9.0.3
     optionalDependencies:
-      electron: 41.0.1
+      electron: 41.0.2
       electron-builder: 26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1))
     transitivePeerDependencies:
       - '@microsoft/api-extractor'
@@ -4359,12 +4356,12 @@ snapshots:
       - typescript
       - yaml
 
-  '@doubleshot/nest-electron@0.2.11(@nestjs/common@11.1.16(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.16)(@nestjs/microservices@11.1.16)(electron@41.0.1)(rxjs@7.8.2)':
+  '@doubleshot/nest-electron@0.2.11(@nestjs/common@11.1.16(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.16)(@nestjs/microservices@11.1.16)(electron@41.0.2)(rxjs@7.8.2)':
     dependencies:
       '@nestjs/common': 11.1.16(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/core': 11.1.16(@nestjs/common@11.1.16(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/microservices@11.1.16)(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/microservices': 11.1.16(@nestjs/common@11.1.16(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.16)(reflect-metadata@0.2.2)(rxjs@7.8.2)
-      electron: 41.0.1
+      electron: 41.0.2
       rxjs: 7.8.2
 
   '@dprint/formatter@0.5.1': {}
@@ -5297,7 +5294,7 @@ snapshots:
 
   '@types/fs-extra@9.0.13':
     dependencies:
-      '@types/node': 25.3.5
+      '@types/node': 25.5.0
 
   '@types/http-cache-semantics@4.2.0': {}
 
@@ -5317,14 +5314,9 @@ snapshots:
     dependencies:
       undici-types: 7.16.0
 
-  '@types/node@25.3.5':
-    dependencies:
-      undici-types: 7.18.2
-
   '@types/node@25.5.0':
     dependencies:
       undici-types: 7.18.2
-    optional: true
 
   '@types/plist@3.0.5':
     dependencies:
@@ -6052,7 +6044,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  electron@41.0.1:
+  electron@41.0.2:
     dependencies:
       '@electron/get': 2.0.3
       '@types/node': 24.12.0
@@ -8412,9 +8404,9 @@ snapshots:
       extsprintf: 1.4.1
     optional: true
 
-  vite-plugin-doubleshot@0.0.20(@swc/core@1.11.4)(electron-builder@26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1)))(electron@41.0.1)(esbuild@0.27.2)(jiti@2.6.1)(postcss@8.5.8)(tsx@4.19.2)(typescript@5.9.3)(vite@8.0.0(@types/node@25.5.0)(esbuild@0.27.2)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))(yaml@2.8.2):
+  vite-plugin-doubleshot@0.0.20(@swc/core@1.11.4)(electron-builder@26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1)))(electron@41.0.2)(esbuild@0.27.2)(jiti@2.6.1)(postcss@8.5.8)(tsx@4.19.2)(typescript@5.9.3)(vite@8.0.0(@types/node@25.5.0)(esbuild@0.27.2)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))(yaml@2.8.2):
     dependencies:
-      '@doubleshot/builder': 0.0.16(@swc/core@1.11.4)(electron-builder@26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1)))(electron@41.0.1)(esbuild@0.27.2)(jiti@2.6.1)(postcss@8.5.8)(tsx@4.19.2)(typescript@5.9.3)(yaml@2.8.2)
+      '@doubleshot/builder': 0.0.16(@swc/core@1.11.4)(electron-builder@26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1)))(electron@41.0.2)(esbuild@0.27.2)(jiti@2.6.1)(postcss@8.5.8)(tsx@4.19.2)(typescript@5.9.3)(yaml@2.8.2)
       vite: 8.0.0(@types/node@25.5.0)(esbuild@0.27.2)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2)
     transitivePeerDependencies:
       - '@microsoft/api-extractor'
