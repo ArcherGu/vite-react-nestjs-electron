@@ -48,7 +48,7 @@
       "simple-git-hooks"
     ],
     "overrides": {
-      "@eslint-react/eslint-plugin": "^2.11.0"
+      "@eslint-react/eslint-plugin": "^3.0.0"
     }
   },
   "simple-git-hooks": {
