@@ -24,10 +24,10 @@ importers:
         specifier: ^11.1.18
         version: 11.1.18(@nestjs/common@11.1.18(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.18)(reflect-metadata@0.2.2)(rxjs@7.8.2)
       react:
-        specifier: ^19.2.4
+        specifier: ^19.2.5
         version: 19.2.5
       react-dom:
-        specifier: ^19.2.4
+        specifier: ^19.2.5
         version: 19.2.5(react@19.2.5)
       reflect-metadata:
         specifier: ^0.2.2
@@ -37,7 +37,7 @@ importers:
         version: 7.8.2
     devDependencies:
       '@lightwing/eslint-config':
-        specifier: ^1.0.152
+        specifier: ^1.0.153
         version: 1.0.153(@typescript-eslint/rule-tester@8.56.1(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(@typescript-eslint/typescript-estree@8.58.1(typescript@6.0.2))(@typescript-eslint/utils@8.58.1(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(@vue/compiler-sfc@3.4.22)(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2)
       '@types/react':
         specifier: ^19.2.14
@@ -49,7 +49,7 @@ importers:
         specifier: ^6.0.1
         version: 6.0.1(vite@8.0.8(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.3))
       electron:
-        specifier: ^41.1.1
+        specifier: ^41.2.0
         version: 41.2.0
       electron-builder:
         specifier: ^26.8.1
@@ -70,7 +70,7 @@ importers:
         specifier: ^6.0.2
         version: 6.0.2
       vite:
-        specifier: ^8.0.3
+        specifier: ^8.0.8
         version: 8.0.8(@types/node@25.5.2)(esbuild@0.27.2)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.3)
       vite-plugin-doubleshot:
         specifier: ^0.0.22
@@ -5276,7 +5276,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 24.12.2
+      '@types/node': 25.5.2
     optional: true
 
   '@typescript-eslint/eslint-plugin@8.58.1(@typescript-eslint/parser@8.58.1(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2)':
@@ -5321,8 +5321,8 @@ snapshots:
 
   '@typescript-eslint/project-service@8.56.1(typescript@6.0.2)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.56.1(typescript@6.0.2)
-      '@typescript-eslint/types': 8.56.1
+      '@typescript-eslint/tsconfig-utils': 8.58.1(typescript@6.0.2)
+      '@typescript-eslint/types': 8.58.1
       debug: 4.4.3
       typescript: 6.0.2
     transitivePeerDependencies:
