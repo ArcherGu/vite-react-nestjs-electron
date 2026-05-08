@@ -1,0 +1,14 @@
+allowBuilds:
+  '@nestjs/core': true
+  electron: true
+  electron-winstaller: true
+  esbuild: true
+  simple-git-hooks: true
+
+overrides:
+  '@eslint-react/eslint-plugin': ^3.0.0
+
+shellEmulator: true
+trustPolicy: no-downgrade
+trustPolicyExclude:
+  - semver@6.3.1
