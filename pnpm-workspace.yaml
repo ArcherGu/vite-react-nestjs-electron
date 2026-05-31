@@ -6,10 +6,9 @@ allowBuilds:
   simple-git-hooks: true
 
 overrides:
-  '@eslint-react/eslint-plugin': ^3.0.0
+  '@eslint-react/eslint-plugin': ^5.8.7
 
 shellEmulator: true
 trustPolicy: no-downgrade
 trustPolicyExclude:
-  - semver@5.7.2
-  - semver@6.3.1
+  - semver
