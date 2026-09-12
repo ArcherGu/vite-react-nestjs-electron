@@ -2,7 +2,7 @@
   "name": "vite-react-nestjs-electron",
   "version": "0.0.1",
   "private": true,
-  "packageManager": "pnpm@12.3.4",
+  "packageManager": "pnpm@12.4.1",
   "description": "Vite + React + Electron with Doubleshot, so fast! ⚡",
   "main": "dist/main/index.js",
   "scripts": {
