@@ -24,7 +24,7 @@
     "rxjs": "^7.8.2"
   },
   "devDependencies": {
-    "@lightwing/eslint-config": "^1.0.158",
+    "@lightwing/eslint-config": "^1.0.160",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.5",
     "@typescript/native": "npm:typescript@7.0.2",

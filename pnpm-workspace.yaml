@@ -21,6 +21,9 @@ overrides:
   undici@<6.28.0: ^8.0.0
 
 shellEmulator: true
+
 trustPolicy: no-downgrade
 trustPolicyExclude:
   - semver
+
+minimumReleaseAgeExcludePrune: true
