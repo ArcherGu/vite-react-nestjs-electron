@@ -220,7 +220,7 @@ importers:
         version: typescript@7.0.2
       '@vitejs/plugin-react':
         specifier: ^6.1.1
-        version: 6.1.1(vite@8.3.2(@types/node@26.1.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))
+        version: 6.1.2(vite@8.3.2(@types/node@26.5.1)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))
       electron:
         specifier: ^44.0.0
         version: 44.5.1(supports-color@7.2.0)
@@ -244,10 +244,10 @@ importers:
         version: '@typescript/typescript6@6.0.2'
       vite:
         specifier: ^8.2.2
-        version: 8.3.2(@types/node@26.1.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0)
+        version: 8.3.2(@types/node@26.5.1)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0)
       vite-plugin-doubleshot:
         specifier: ^0.0.26
-        version: 0.0.26(@typescript/typescript6@6.0.2)(debug@4.4.3(supports-color@7.2.0))(electron-builder@26.15.3(electron-builder-squirrel-windows@26.15.3)(supports-color@7.2.0))(electron@44.5.1(supports-color@7.2.0))(esbuild@0.28.2)(supports-color@7.2.0)(vite@8.3.2(@types/node@26.1.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))
+        version: 0.0.26(@typescript/typescript6@6.0.2)(debug@4.4.3(supports-color@7.2.0))(electron-builder@26.15.3(electron-builder-squirrel-windows@26.15.3)(supports-color@7.2.0))(electron@44.5.1(supports-color@7.2.0))(esbuild@0.28.2)(supports-color@7.2.0)(vite@8.3.2(@types/node@26.5.1)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))
 
 packages:
 
@@ -1380,9 +1380,6 @@ packages:
   '@types/node@24.13.3':
     resolution: {integrity: sha512-Dh8vAsV36ig5wa9OX4pXvMc9D3Veibfw2wix0CUwYODLD8nkj9UsLjASr49nPg+2eKzxhBV+v7L8pXvT4e639Q==}
 
-  '@types/node@26.1.0':
-    resolution: {integrity: sha512-O0A1G3xPGy4w7AgQdAQYUlQ+BKk2Oovw8eRpofyp5KdBZULnbe+WqaOVNrm705SHphCiG4XHsACrSmPu1f+Kgw==}
-
   '@types/node@26.5.1':
     resolution: {integrity: sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g==}
 
@@ -1639,13 +1636,13 @@ packages:
   '@unocss/rule-utils@66.10.2':
     resolution: {integrity: sha512-iqLEQBwUylcz7eFtLHx59bUdTzw7mEcb1E6W1KQ1wWqC4RbUpxhS2hG2w/0aBtfna7JnqxoVmNoHQh3V6JLcdQ==}
 
-  '@vitejs/plugin-react@6.1.1':
-    resolution: {integrity: sha512-yxLaQV9gkhS8ezJqCM6+ndU7mDY6gqAg75NQ+0IjwEI8IYOmQCgkRwHKVSfWXW076DsqMo0Dk+0FK1U+M5RgFw==}
+  '@vitejs/plugin-react@6.1.2':
+    resolution: {integrity: sha512-fhJNGUdscQa4HkI0xFxwonWyhnVReCPDbXI7FH7jmzpnVCrFQI7PRrhWecO263610vOrs9tr2Y4xcf8uAdFxbw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       '@rolldown/plugin-babel': ^0.1.7 || ^0.2.0
       babel-plugin-react-compiler: ^1.0.0
-      oxc-transform-react: ^0.145.0
+      oxc-transform-react: ^0.152.0
       vite: ^8.0.0
     peerDependenciesMeta:
       '@rolldown/plugin-babel':
@@ -3995,9 +3992,6 @@ packages:
   undici-types@7.18.2:
     resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
 
-  undici-types@8.3.0:
-    resolution: {integrity: sha512-j375ScV60dom+YkPFIfTLcOiPxkN/buHz5GobjLhixFuANaNs3C9l4GmrWqejgXWJ7BbJcFYpTEUkS1Ge8bpZQ==}
-
   undici-types@8.9.0:
     resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
 
@@ -5241,11 +5235,6 @@ snapshots:
     dependencies:
       undici-types: 7.18.2
 
-  '@types/node@26.1.0':
-    dependencies:
-      undici-types: 8.3.0
-    optional: true
-
   '@types/node@26.5.1':
     dependencies:
       undici-types: 8.9.0
@@ -5509,10 +5498,10 @@ snapshots:
       '@unocss/core': 66.10.2
       magic-string: 1.3.1
 
-  '@vitejs/plugin-react@6.1.1(vite@8.3.2(@types/node@26.1.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))':
+  '@vitejs/plugin-react@6.1.2(vite@8.3.2(@types/node@26.5.1)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.3.2(@types/node@26.1.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0)
+      vite: 8.3.2(@types/node@26.5.1)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0)
 
   '@vitest/eslint-plugin@1.6.27(@typescript-eslint/eslint-plugin@8.70.0(@typescript-eslint/parser@8.70.0(@typescript/typescript6@6.0.2)(eslint@10.12.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0))(@typescript/typescript6@6.0.2)(eslint@10.12.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0))(@typescript/typescript6@6.0.2)(eslint@10.12.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)':
     dependencies:
@@ -8179,9 +8168,6 @@ snapshots:
 
   undici-types@7.18.2: {}
 
-  undici-types@8.3.0:
-    optional: true
-
   undici-types@8.9.0: {}
 
   undici@7.29.0:
@@ -8241,10 +8227,10 @@ snapshots:
 
   verkit@0.3.2: {}
 
-  vite-plugin-doubleshot@0.0.26(@typescript/typescript6@6.0.2)(debug@4.4.3(supports-color@7.2.0))(electron-builder@26.15.3(electron-builder-squirrel-windows@26.15.3)(supports-color@7.2.0))(electron@44.5.1(supports-color@7.2.0))(esbuild@0.28.2)(supports-color@7.2.0)(vite@8.3.2(@types/node@26.1.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0)):
+  vite-plugin-doubleshot@0.0.26(@typescript/typescript6@6.0.2)(debug@4.4.3(supports-color@7.2.0))(electron-builder@26.15.3(electron-builder-squirrel-windows@26.15.3)(supports-color@7.2.0))(electron@44.5.1(supports-color@7.2.0))(esbuild@0.28.2)(supports-color@7.2.0)(vite@8.3.2(@types/node@26.5.1)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0)):
     dependencies:
       '@doubleshot/builder': 0.0.25(@typescript/typescript6@6.0.2)(debug@4.4.3(supports-color@7.2.0))(electron-builder@26.15.3(electron-builder-squirrel-windows@26.15.3)(supports-color@7.2.0))(electron@44.5.1(supports-color@7.2.0))(esbuild@0.28.2)(supports-color@7.2.0)
-      vite: 8.3.2(@types/node@26.1.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0)
+      vite: 8.3.2(@types/node@26.5.1)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0)
     transitivePeerDependencies:
       - '@arethetypeswrong/core'
       - '@tsdown/css'
@@ -8265,7 +8251,7 @@ snapshots:
       - unrun
       - vue-tsc
 
-  vite@8.3.2(@types/node@26.1.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0):
+  vite@8.3.2(@types/node@26.5.1)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -8273,7 +8259,7 @@ snapshots:
       rolldown: 1.2.11
       tinyglobby: 0.2.17
     optionalDependencies:
-      '@types/node': 26.1.0
+      '@types/node': 26.5.1
       esbuild: 0.28.2
       fsevents: 2.3.3
       jiti: 2.7.0
