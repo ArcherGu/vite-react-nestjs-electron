@@ -6,6 +6,10 @@ allowBuilds:
   simple-git-hooks: true
 
 overrides:
+  tinypool@<2.1.2: ^2.2.0
+  katex@<0.18.2: ^0.18.2
+  minimatch@>=9.0.0 <11.0.1: ^11.0.1
+  glob@>=9.0.0 <14.0.2: ^14.0.2
   '@eslint-react/eslint-plugin': ^5.8.7
   brace-expansion@<1.1.16: ^1.1.16
   brace-expansion@<1.1.17: ^1.1.17
